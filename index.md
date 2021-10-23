@@ -1,5 +1,5 @@
 # Warwick Module Notes
-This is a collection of unofficial warwick Computer Science notes for the second year of study. 
+This is a collection of unofficial warwick Computer Science notes for the second year of study. These are my own personal notes which I have written throughout the term, and will continue to be updated as the year progresses. 
 These are **unofficial**, therefore may not be entirely correct, and should not be used as study material without knowing this..
 Please pull request or contact me at leonchipchase4@gmail.com if there are errors.
 
