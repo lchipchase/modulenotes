@@ -12,12 +12,8 @@
       </script>
     {% endif %}
     <meta charset="UTF-8">
-    {%- if page.math == true -%}
     <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    {%- endif -%}
-    {%- if page.jquery == true -%}
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    {%- endif -%}
     {% if page.script %}
     <script type="text/javascript" src="{{page.script}}"></script>
     {%- endif -%}
@@ -28,12 +24,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>
-      {%- if page.layout == "modhome" -%}
-        {{ page.title | default: "Module" }}🏠
-      {%- else -%}
-        {{ site.title }}
-      {%- endif -%}
-      
+        {{ page.title }}�
+   
     </title>
   </head>
   <body>
